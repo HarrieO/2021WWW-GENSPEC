@@ -82,7 +82,7 @@ For the top-k hotfix baseline, we simply add the *--k* flag following the paper 
 ```
 mkdir -p local_output/yahoo/clicks/top10_hotfix
 mkdir -p local_output/yahoo/results/top10_hotfix
-python3 hotfix.py pretrained/Webscope_C14_Set1/pretrained_model.txt local_output/yahoo/clicks/hotfix --k 10 --dataset_info_path local_dataset_info.txt
+python3 hotfix.py pretrained/Webscope_C14_Set1/pretrained_model.txt local_output/yahoo/clicks/top10_hotfix --k 10 --dataset_info_path local_dataset_info.txt
 python3 bandit_eval.py local_output/yahoo/clicks/top10_hotfix/10000000clicks.pkl local_output/yahoo/results/top10_hotfix/10000000_clicks_results.txt --dataset_info_path local_dataset_info.txt
 ```
 
