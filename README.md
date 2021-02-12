@@ -38,7 +38,7 @@ First create a folder to store the results:
 mkdir local_output
 ```
 We reused the pretrained from our previous WSDM'21 publication, the models are included in the repository.
-If you wish to pretrain your own models, you can use ([the following repository](https://github.com/HarrieO/2021wsdm-unifying-LTR)).
+If you wish to pretrain your own models, you can use [the following repository](https://github.com/HarrieO/2021wsdm-unifying-LTR).
 First we create a folder to store the clicks we will generate for GENSPEC:
 ```
 mkdir -p local_output/yahoo/clicks/genspec
